@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T10:00:19.930Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6_1QIfIFO8LKw2fm-X1j" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T10:09:00.029Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8BFpEyllc3w2FfjdJTR3" version="22.0.4" type="github">
   <diagram name="Page-1" id="dDQskJX8iZ86jDSLjyaD">
     <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
         <mxCell id="ShjVHFg7I0nuSI6PbSU3-12" value="&lt;font style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Output&lt;br&gt;(Original/&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Fraudulent&lt;/span&gt;)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="280" y="970" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ShjVHFg7I0nuSI6PbSU3-16" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;Example&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255);&quot;&gt;Format&amp;nbsp;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp;-&lt;br&gt;&lt;br&gt;[{Document_Id:&quot;FULL-09157115255&quot;,&quot;Prediction_Score&quot; 0.3:,&quot;Fraudulent&quot;:Fake}]&lt;br&gt;&lt;/font&gt;&lt;br&gt;[{Document_Id:&quot;FULL-09157115256&quot;,&quot;Prediction_Score&quot;:,0.5&quot;&lt;br&gt;Fraudulent&quot;:Original}]&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="ShjVHFg7I0nuSI6PbSU3-16" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;Example&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp;-&lt;br&gt;(JSON FORMAT)&lt;br&gt;&lt;br&gt;[{Document_Id:&quot;FULL-09157115255&quot;,&quot;Prediction_Score&quot; 0.3:,&quot;Fraudulent&quot;:Fake}]&lt;br&gt;&lt;/font&gt;&lt;br&gt;[{Document_Id:&quot;FULL-09157115256&quot;,&quot;Prediction_Score&quot;:,0.5&quot;&lt;br&gt;Fraudulent&quot;:Original}]&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="255" y="1080" width="290" height="180" as="geometry" />
         </mxCell>
       </root>
