@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T14:23:01.980Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xKH2mY0_E9WsFaRZH2_T" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T14:31:09.872Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7VIyRlgcQm6Aawf7eXv1" version="23.1.6" type="github">
   <diagram name="Page-1" id="2EUsOOOVj8OHihhh9qo4">
     <mxGraphModel dx="1259" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,9 +44,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="120" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="RsuP2KSaUgANFb2woG4n-14" value="Connect with database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="145" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RsuP2KSaUgANFb2woG4n-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -122,9 +119,6 @@
         </mxCell>
         <mxCell id="RsuP2KSaUgANFb2woG4n-39" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="466" y="551" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RsuP2KSaUgANFb2woG4n-40" value="Connect with database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="576" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RsuP2KSaUgANFb2woG4n-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -236,6 +230,51 @@
         </mxCell>
         <mxCell id="RsuP2KSaUgANFb2woG4n-102" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="1">
           <mxGeometry x="401" y="776.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-104" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.536;exitY=1.053;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="348.49999999999994" y="1020.8230000000001" as="sourcePoint" />
+            <mxPoint x="348.7" y="1076" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-105" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_Add_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="523" y="135" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-106" value="DB connection" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="509" y="199" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-107" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_Add_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="521" y="564" width="44" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-108" value="DB connection" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503" y="632" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-109" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.csv_file;" vertex="1" parent="1">
+          <mxGeometry x="328" y="1080" width="59" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-110" value="Output .CSV File" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352" y="1040" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-111" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="348.5" y="1120" as="sourcePoint" />
+            <mxPoint x="348.5" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-112" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="1182" width="300" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-113" value="Output File" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="213" y="1206" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-114" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404" y="1101" as="sourcePoint" />
+            <mxPoint x="444" y="1101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-115" value="Add the log file processed in file queue table" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1093" width="90" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
