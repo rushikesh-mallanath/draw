@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T13:38:16.149Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="23.1.6" etag="02y9gZFFyq5Njh3tZHF8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T13:49:50.355Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YLeeO7Xr1rLOEWdgsgj3" version="23.1.6" type="github">
   <diagram name="Page-1" id="2EUsOOOVj8OHihhh9qo4">
-    <mxGraphModel>
+    <mxGraphModel dx="1259" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RsuP2KSaUgANFb2woG4n-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsuP2KSaUgANFb2woG4n-3" target="RsuP2KSaUgANFb2woG4n-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-3" value="Start" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="316" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271" y="120" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-6" value="SFTP&lt;br&gt;Connection" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="316" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="421" y="159.5" as="sourcePoint" />
+            <mxPoint x="466.08756567425576" y="159.73730297723296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-8" value="YES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="286" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-9" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="346" y="200" as="sourcePoint" />
+            <mxPoint x="346" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-13" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="466" y="120" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-14" value="Connect with database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="616" y="159.5" as="sourcePoint" />
+            <mxPoint x="661.0875656742558" y="159.73730297723296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-17" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="606" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-18" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="653" y="143" width="103" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-19" value="Break" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="675" y="148" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="541" y="200" as="sourcePoint" />
+            <mxPoint x="541" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="486" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-22" value="Add the log in system log-table" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="511" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-25" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271" y="240" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-26" value="Check Input File" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="347" y="320" as="sourcePoint" />
+            <mxPoint x="347" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-28" value="YES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="292" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-29" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsuP2KSaUgANFb2woG4n-30" value="Add tag pending in file&amp;nbsp;queue&amp;nbsp;table" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="312" y="375" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
