@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T09:36:17.293Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5BCkGQYuimjpB2LR6BJ8" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T13:47:25.824Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4ia-Qgao4IW1a86RJJ7T" version="24.2.5" type="github">
   <diagram name="Page-1" id="2EUsOOOVj8OHihhh9qo4">
     <mxGraphModel dx="1259" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,6 +278,12 @@
         </mxCell>
         <mxCell id="TgZ_EIgBOrHpFsuJSgnc-1" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="1">
           <mxGeometry x="267" y="1204.5" width="53" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TgZ_EIgBOrHpFsuJSgnc-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554.5" y="768" width="145.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TgZ_EIgBOrHpFsuJSgnc-3" value="Add the tag &#39;Processing&#39; file queue table" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="562" y="786" width="134" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
