@@ -1,11 +1,122 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="K4-uMQUCCdzaDDjiR1Aa">
-    <mxGraphModel dx="1183" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2247" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="S0pkvh6AxldaCvJyQXTE-1" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="156" width="340" height="570" as="geometry" />
+          <mxGeometry x="270" y="156" width="340" height="364" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-2" value="Payload :&lt;div&gt;[Input Image name, OAuth credentials]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="351" y="75" width="199" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450.08" y="110" as="sourcePoint" />
+            <mxPoint x="450.08" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-5" value="Retrieve Image from Cloud storage&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-6" value="As &lt;b&gt;Frontend&lt;/b&gt; Side When We Get Image as a User Input&lt;div&gt;1. Store Same Image On Cloud bucket&lt;/div&gt;&lt;div&gt;2. Get Image Filename and Pass Via API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="-57" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="451.08" y="35" as="sourcePoint" />
+            <mxPoint x="451" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450.08" y="262" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-9" value="Pass Retrieved Image to our deep-image.ai Service and Get Processed Image URL as Output&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="311" width="129" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450.08" y="381" as="sourcePoint" />
+            <mxPoint x="450" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-11" value="Provide Outpur URL to Frontend Side" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="430" width="129" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450.08" y="500" as="sourcePoint" />
+            <mxPoint x="450" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-13" value="At Frontend Side Extract the Image from Output URL" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-14" value="&lt;b&gt;Resources&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="438" y="-139" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-15" value="&lt;b&gt;OAuth&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-104" y="-94" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-16" value="User Login/ Register&lt;div&gt;[Username, Password]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-134" y="-45" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-65" y="-7" as="sourcePoint" />
+            <mxPoint x="-65" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-20" value="If Cred are Correct" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="-4" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-21" value="We Will Create Session ID and Store Session ID with the Username in Firebase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-131" y="35" width="126" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-65" y="104" as="sourcePoint" />
+            <mxPoint x="-65" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-136" y="147" as="sourcePoint" />
+            <mxPoint x="4" y="147" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-135" y="147" as="sourcePoint" />
+            <mxPoint x="-135" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4" y="148" as="sourcePoint" />
+            <mxPoint x="4" y="188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5" y="92.75" as="sourcePoint" />
+            <mxPoint x="324" y="95.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="70" as="sourcePoint" />
+            <mxPoint y="68.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-28" value="Request Sessoin ID" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="33" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0pkvh6AxldaCvJyQXTE-32" value="Return Sessoin ID" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
