@@ -4,8 +4,116 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JipJdQJVxz-63X-_jNNo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Input query/ file" vertex="1">
-          <mxGeometry height="60" width="90" x="30" y="190" as="geometry" />
+        <mxCell id="JipJdQJVxz-63X-_jNNo-3" edge="1" parent="1" source="JipJdQJVxz-63X-_jNNo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JipJdQJVxz-63X-_jNNo-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Input&lt;div&gt;Brand profile (name, niche, identity, style)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="110" x="20" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Script Generator" vertex="1">
+          <mxGeometry height="65" width="110" x="360" y="312.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A cron job that runs at midnight" vertex="1">
+          <mxGeometry height="30" width="80" x="150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-5" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" value="" vertex="1">
+          <mxGeometry height="40" width="95" x="367.5" y="312.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JipJdQJVxz-63X-_jNNo-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="471" y="340" as="sourcePoint" />
+            <mxPoint x="590" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="471" y="352.5" as="sourcePoint" />
+            <mxPoint x="600" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.036;exitY=0.869;exitDx=0;exitDy=0;exitPerimeter=0;" target="JipJdQJVxz-63X-_jNNo-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470.00000000000006" y="344.4949999999999" as="sourcePoint" />
+            <mxPoint x="590" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin-bottom: 0.28cm&quot;&gt;&#xa;Ad Variation Generator&lt;/p&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="47.5" width="90" x="600" y="321.25" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin-bottom: 0.28cm&quot;&gt;&#xa;Video Generator&lt;/p&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="47.5" width="90" x="600" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin-bottom: 0.28cm&quot;&gt;&#xa;Auto Product Demo Generator&lt;/p&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="47.5" width="90" x="600" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fillStyle=dashed;fillColor=default;gradientColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="300" width="147.5" x="571.25" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="processing in batch&lt;div&gt;Stack : GPU, ComfyUI, Multi-processing&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="80" x="610" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.48;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="JipJdQJVxz-63X-_jNNo-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="718.75" y="344.5" as="sourcePoint" />
+            <mxPoint x="778.75" y="344.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-17" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="72" width="69" x="240" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fillStyle=dashed;fillColor=default;gradientColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="300" width="147.5" x="830" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Brand1" vertex="1">
+          <mxGeometry height="50" width="91.25" x="858.13" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Brand2" vertex="1">
+          <mxGeometry height="48.75" width="91.87" x="857.51" y="321.25" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Brand3" vertex="1">
+          <mxGeometry height="48.75" width="91.87" x="857.51" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Storing generated data for each brand" vertex="1">
+          <mxGeometry height="50" width="80" x="730" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-23" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Posting Engine" vertex="1">
+          <mxGeometry height="102.5" width="102.5" x="1130" y="294.38" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JipJdQJVxz-63X-_jNNo-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="977.5" y="344.5" as="sourcePoint" />
+            <mxPoint x="1070" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-25" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="72" width="69" x="1020" y="305.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1232.5" y="340" as="sourcePoint" />
+            <mxPoint x="1330" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1232.5" y="344.38" as="sourcePoint" />
+            <mxPoint x="1330" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1232.5" y="344.38" as="sourcePoint" />
+            <mxPoint x="1330" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Social Platform1" vertex="1">
+          <mxGeometry height="30" width="60" x="1330" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Social Platform2" vertex="1">
+          <mxGeometry height="30" width="60" x="1330" y="330.63" as="geometry" />
+        </mxCell>
+        <mxCell id="JipJdQJVxz-63X-_jNNo-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Social Platform2" vertex="1">
+          <mxGeometry height="30" width="60" x="1330" y="377.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
